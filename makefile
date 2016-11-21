@@ -27,7 +27,9 @@ client/build: client/node_modules
 	cd ./client && npm run build
 
 deploy:
-	hyper compose down && hyper compose up -d -f ./hyper-compose.sh
+	hyper pull adamveld12/hookspy:master
+	hyper compose down
+	hyper compose up -d --force-recreate -f ./hyper-compose.sh
 
 bindata: client/build
 	go get -u github.com/jteeuwen/go-bindata/...
