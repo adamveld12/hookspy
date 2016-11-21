@@ -1,0 +1,69 @@
+
+.RequestInfo .bodyInfo [type=checkbox] {
+  display: none;
+}
+
+.RequestInfo .bodyInfo [type=checkbox]:checked ~ label ~ pre {
+  height: 0 !important;
+  padding: 0;
+  border: none;
+}
+
+.RequestInfo {
+  padding: 0;
+  width: 80%;
+  box-shadow: 0 0 2px #888;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border-radius: 3px;
+}
+
+.RequestInfo .time {
+  font-size: 11px;
+}
+
+.RequestInfo .info {
+  padding: 10px;
+}
+
+.RequestInfo h2, h3 {
+  font-weight: 600;
+  color: #666;
+  text-align: left;
+  margin: 0;
+}
+
+.RequestInfo .info {
+  border-top: 1px;
+  border: 1px solid #ddd;
+}
+
+.RequestInfo pre {
+  padding: 7px 12px;
+  text-align: left;
+  margin: 10px 0;
+  overflow: auto;
+  font-size: 13px;
+  line-height: 1.5;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.RequestInfo .header {
+  box-sizing: border-box;
+  padding: 9px 10px 10px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 17px;
+  background-color: #f5f5f5;
+  border: 1px solid #d8d8d8;
+  border-bottom: 0;
+  border-radius: 3px 3px 0 0;
+  font-weight: 600;
+}
+
+
+.RequestInfo .header p {
+  margin: 0;
+}

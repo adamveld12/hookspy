@@ -1,2 +1,4 @@
 vendor
+client/build
 client/node_modules
+api

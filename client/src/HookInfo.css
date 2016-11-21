@@ -1,0 +1,15 @@
+
+.HookInfo {
+  padding-top: 15px;
+  background-color: #3c4b6f;
+  height: 50px;
+  box-shadow: 0 0 5px #888;
+  position: fixed;
+  width: 100%;
+}
+
+.HookInfo textarea {
+  min-width: 380px;
+  text-align: center;
+  resize: none;
+}

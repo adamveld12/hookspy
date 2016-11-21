@@ -1,0 +1,48 @@
+hash: 5e74119448587000a705dfdeee7ce8d6a8467570520acc773c640ba7454ea5ac
+updated: 2016-11-20T17:18:16.733806583-06:00
+imports:
+- name: github.com/adamveld12/muxwrap
+  version: 8cde6c247be32d98083b4424e04c8a33dace8895
+- name: github.com/cenk/backoff
+  version: b02f2bbce11d7ea6b97f282ef1771b0fe2f65ef3
+- name: github.com/dancannon/gorethink
+  version: 016a1d3b4d15951ab2e39bd3596718ba94d298ba
+- name: github.com/golang/protobuf
+  version: 8ee79997227bf9b34611aee7946ae64735e6fd93
+  subpackages:
+  - proto
+- name: github.com/gorilla/websocket
+  version: e8f0f8aaa98dfb6586cbdf2978d511e3199a960a
+- name: github.com/hailocab/go-hostpool
+  version: e80d13ce29ede4452c43dea11e79b9bc8a15b478
+- name: github.com/Sirupsen/logrus
+  version: a437dfd2463eaedbec3dfe443e477d3b0a810b3f
+- name: golang.org/x/crypto
+  version: 9477e0b78b9ac3d0b03822fd95422e2fe07627cd
+  subpackages:
+  - pbkdf2
+- name: golang.org/x/sys
+  version: b699b7032584f0953262cb2788a0ca19bb494703
+  subpackages:
+  - unix
+- name: gopkg.in/adamveld12/muxwrap.v0
+  version: 8cde6c247be32d98083b4424e04c8a33dace8895
+- name: gopkg.in/dancannon/gorethink.v2
+  version: 016a1d3b4d15951ab2e39bd3596718ba94d298ba
+  subpackages:
+  - encoding
+  - ql2
+  - types
+- name: gopkg.in/elazarl/go-bindata-assetfs.v0
+  version: 9a6736ed45b44bf3835afeebb3034b57ed329f3e
+- name: gopkg.in/fatih/pool.v2
+  version: 20a0a429c5f93de45c90f5f09ea297c25e0929b3
+- name: gopkg.in/gorilla/websocket.v1
+  version: 1f512fc3f05332ba7117626cdfb4e07474e58e60
+- name: gopkg.in/jteeuwen/go-bindata.v3
+  version: bbd0c6e271208dce66d8fda4bc536453cd27fc4a
+- name: gopkg.in/kelseyhightower/envconfig.v1
+  version: 9aca109c9aec4633fced9717c4a09ecab3d33111
+- name: gopkg.in/satori/go.uuid.v1
+  version: 879c5887cd475cd7864858769793b2ceb0d44feb
+testImports: []
