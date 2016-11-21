@@ -1,6 +1,7 @@
 version: '2'
 services:
   web:
+    restart: always
     size: S1
     fip: 209.177.93.123
     environment:
@@ -13,6 +14,7 @@ services:
     depends_on:
       - db
   db:
+    restart: always
     size: S2
     image: rethinkdb
     volumes:
