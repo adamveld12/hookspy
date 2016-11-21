@@ -2,3 +2,5 @@ vendor
 client/build
 client/node_modules
 api
+npm-debug.log
+bindata_assetfs.go
