@@ -2,9 +2,12 @@ version: '2'
 services:
   web:
     size: S1
+    fip: 209.177.93.123
     environment:
       - "HOOKSPY_DEBUG=false"
     image: adamveld12/hookspy
+    ports:
+      - '80:80'
     links:
       - db:db
     depends_on:
@@ -14,14 +17,3 @@ services:
     image: rethinkdb
     volumes:
       - dbstorage:/data
-  lb:
-    size: S2
-    image: 'dockercloud/haproxy:latest'
-    fip: 209.177.93.123
-    links:
-      - web
-    depends_on:
-      - web
-    ports:
-      - '80:80'
-      - '443:443'
