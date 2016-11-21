@@ -6,7 +6,7 @@ services:
     fip: 209.177.93.123
     environment:
       - "HOOKSPY_DEBUG=false"
-    image: adamveld12/hookspy
+    image: adamveld12/hookspy:master
     ports:
       - '80:80'
     links:
