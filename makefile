@@ -17,7 +17,7 @@ cli: bindata api
 	docker build -t adamveld12/hookspy .
 
 client/build:
-	npm run build
+	cd ./client && npm run build
 
 bindata: client/build
 	go get -u github.com/elazarl/go-bindata-assetfs/...
