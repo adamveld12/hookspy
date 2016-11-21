@@ -1,4 +1,5 @@
 # :mag: Hook Spy
+[![Build Status](https://semaphoreci.com/api/v1/adamveld12/hookspy/branches/master/badge.svg)](https://semaphoreci.com/adamveld12/hookspy)
 
 Inspect and debug HTTP requests.
 
