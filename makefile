@@ -16,7 +16,10 @@ api_dev:
 cli: bindata api
 	docker build -t adamveld12/hookspy .
 
-client/build:
+client/node_modules:
+	cd ./client && npm install
+
+client/build: client/node_modules
 	cd ./client && npm run build
 
 bindata: client/build
