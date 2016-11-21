@@ -26,6 +26,9 @@ client/node_modules:
 client/build: client/node_modules
 	cd ./client && npm run build
 
+deploy:
+	hyper compose down && hyper compose up -d -f ./hyper-compose.sh
+
 bindata: client/build
 	go get -u github.com/jteeuwen/go-bindata/...
 	go get -u github.com/elazarl/go-bindata-assetfs/...
